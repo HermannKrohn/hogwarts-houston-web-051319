@@ -12,6 +12,12 @@ class Nav extends React.Component {
 					</a>
 				</div>
 				<span className="normalText">A React App for County Fair Hog Fans</span>
+				<br></br><br></br>
+				<div>
+					<p>Sort by:</p>
+					<button onClick={this.props.sortByName}>Name</button>
+					<button onClick={this.props.sortByWeight}>Weight</button>
+				</div>
 			</div>
 		)
 	}
